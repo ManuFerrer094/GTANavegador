@@ -1,0 +1,78 @@
+#botonEmpezarJuego{
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 500;
+  height: 200;
+  background: rgba(0,0,0,0.3);
+  font-weight: bold; 
+  text-align: center; 
+  line-height: 30px; 
+  color: red; 
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  text-shadow: 0px 0px 2px white;
+}
+#botonReiniciarJuego{
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 500;
+  height: 200;
+  background: rgba(0,0,0,0.3);
+  font-weight: bold; 
+  text-align: center; 
+  line-height: 30px; 
+  color: #fff; 
+  font-family: monospace; 
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  text-shadow: 0px 0px 2px red;
+}
+#botonInstrucciones{
+  font-family: 'Anton', sans-serif;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  width: 400;
+  height: 50;
+  background: rgba(0,0,0,0.3);
+  font-weight: bold; 
+  text-align: center; 
+  line-height: 30px; 
+  color: #fff; 
+  font-size: 40px;
+  text-shadow: 0px 0px 2px red;
+
+}
+#cerrar{
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  width: 400;
+  height: 50;
+  background: rgba(0,0,0,0.3);
+  font-weight: bold; 
+  text-align: center; 
+  line-height: 30px; 
+  color: #fff; 
+  font-family: monospace; 
+  font-size: 40px;
+}
+#imagenesInstrucciones{
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+}

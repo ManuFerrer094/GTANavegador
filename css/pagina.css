@@ -1,0 +1,41 @@
+
+/*/////////////////////cambio tocado por anto//////////////////////////////*/
+#contenedor{
+	position: absolute;
+	width: 700px;
+	height: 700px;
+	top: 50%;
+	left: 50%;
+	margin-top:-350px;
+	margin-left: -350px;
+	
+}
+#cazado{
+	position:absolute;
+	width: 800px;
+	height: 800px;
+	left: 50%;
+	top: 50%;
+	margin-top: -500px;
+	margin-left: -400px;
+}
+body{
+	background-image: url(../img/fondo.jpg);
+	background-attachment: fixed;
+}
+#aportaciones{
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	background-color: red;
+	border:2px solid black;
+	box-shadow: 2px 2px 8px black;
+	box-sizing: border-box;
+	padding: 10px 20px;
+}
+#aportaciones p{
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+}
+
+/*/////////////////////cambio tocado por anto//////////////////////////////*/

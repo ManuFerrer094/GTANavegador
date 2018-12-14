@@ -1,0 +1,93 @@
+<!-- Proyecto del master de Aula Temática de Valencia -->
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/mapas.css">
+		<link rel="stylesheet" type="text/css" href="css/interfazUsuario.css">
+		<link rel="stylesheet" type="text/css" href="css/boton.css">
+		<link rel="stylesheet" type="text/css" href="css/pagina.css">
+	</head>
+	<body>
+		<div id="contenedor">
+			<canvas id="lienzo1" width="700px" height="700px"></canvas>
+			<canvas id="lienzoCoche" width="7552px" height="4224px"></canvas>
+			<canvas id="lienzoPerro" width="7552px" height="4224px"></canvas>
+			<canvas id="lienzoPlanta" width="7552px" height="4224px"></canvas>
+			<canvas id="lienzoPajaro" width="7552px" height="4224px"></canvas>
+			<canvas id="lienzoPeces" width="7552px" height="4224px"></canvas>
+			<canvas id="lienzoFinalPolicias" width="700px" height="700px"></canvas>
+			<canvas id="lienzoCochePolicias" width="118px" height="118px"></canvas>
+			<canvas id="lienzoUIPolicias" width="118px" height="118px"></canvas>
+
+		</div>
+		<div id="interfazUsuario">
+			<br><br>
+			<h2>GTA Programación de videojuegos<br> Semana 4.</h2>
+			<br>
+			<h1>Una implementación básica de una ciudad corriente.</h1>
+			<br>
+			<h1>Disfruta de una excelente jugabilidad y observa el mundo autónomo que hemos creado.</h1>
+			<button id="botonEmpezarJuego">Empezar juego</button>
+			<button id="botonInstrucciones" align="center">Instrucciones</button>
+		</div>
+		<div id="instrucciones">
+			<br><br>
+			<h1>-Controlamos el coche con los botones W,A,S,D y SPACE(nitro)</h1><br>
+			<h1>-El coche dispone de combustible, si se acaba pierdes. </h1><br>
+			<h1>-Para repostar debes ir a la gasolinera situada a la izquierda del mapa,</h1><br>
+			<h1>en el edificio que pone GAS, o situarte en el parking del restaurante.</h1><br>
+			<h1>-No te olvides de que la policia va a por ti...</h1>
+			<button id="cerrar" align="center">Volver</button>
+			<br><br><br><br>
+			<div id="imagenesInstrucciones">
+				<img src="img/gasolinera1.png" alt="gasolinera" height="500" width="500">
+				<img src="img/gasolinera2.png" alt="gasolinera" height="500" width="500">
+			</div>
+		</div>
+		<div id="gameOver">
+			<img id="cazado" src="img/cazado.png"><!-- cambio de anto-->
+			<h4>Te ha detenido la policia</h4>
+			<button id="botonReiniciarJuego">Reiniciar juego</button>
+		</div>
+		<!-- Importación de librerías -->
+		<script src="lib/jquery.js"></script>
+		<script src="lib/Tween.js"></script>
+		<script src="js/funciones.js"></script>
+		<script src="js/funcionespez.js"></script>
+
+		<!-- Importación de clases y jerarquías -->
+		<script src="js/clases/Actor.js"></script>
+			<script src="js/clases/Animado.js"></script>
+				<script src="js/clases/Vehiculo.js"></script>
+					<script src="js/clases/Terrestre.js"></script>
+						<script src="js/clases/Motorizado.js"></script>
+							<script src="js/clases/Coche.js"></script>
+								<script src="js/clases/CocheProtagonista.js"></script>
+								<script src="js/clases/CochePolicia.js"></script>
+				<script src="js/clases/Perro.js"></script>
+				<script src="js/clases/Ardilla.js"></script>
+				<script src="js/clases/Pajaro.js"></script>
+				<script src="js/clases/ObjetivoPez.js"></script>
+				<script src="js/clases/Objetivo.js"></script>
+				<script src="js/clases/Pez.js"></script>
+					<script src="js/clases/Tiburon.js"></script>
+			<script src="js/clases/PerroMeo.js"></script>
+			<script src="js/clases/Arbol.js"></script>
+			<script src="js/clases/Interfaz.js"></script>
+				<script src="js/clases/InterfazBarra.js"></script>
+					<script src="js/clases/InterfazBarraCombustible.js"></script>
+			<script src="js/clases/Cursor.js"></script>
+			<script src="js/clases/Articulacion.js"></script>
+		<script src="js/clases/BotObjeto.js"></script>
+
+		<!-- Importación de clases para el desfase (offset) -->
+		<script src="js/clases/Rectangulo.js"></script>
+		<script src="js/clases/Camara.js"></script>
+		<script src="js/clases/Mapa.js"></script>
+
+		<!-- Script del juego -->
+		<script src="js/bucle.js"></script>
+		<script src="js/inicio.js"></script>
+		<script src="js/condicionesiniciales.js"></script>
+	</body>
+</html>
